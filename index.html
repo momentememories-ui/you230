@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Happy Anniversary💗</title>
+    <title>Happy Anniversary❤️</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -68,7 +68,7 @@
             left: 0;
             width: 100vw;
             height: 100vh;
-            background-image: url('photo6.webp');
+            background-image: url('photo6.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -131,14 +131,14 @@
             touch-action: none;
         }
 
-        /* Final Page 5 Style (Full Screen photo5.webp) */
+        /* Final Page 5 Style (Full Screen photo5.png) */
         #page-final {
             position: fixed;
             top: 0;
             left: 0;
             width: 100vw;
             height: 100vh;
-            background-image: url('photo5.webp');
+            background-image: url('photo5.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -177,7 +177,7 @@
         </div>
     </div>
 
-    <!-- PAGE 5 (Full Screen photo5.webp) -->
+    <!-- PAGE 5 (Full Screen photo5.png) -->
     <div id="page-final"></div>
 
     <script>
@@ -219,7 +219,7 @@
             }
         }
 
-        // Photos Config
+        // Photos Config (photo1 - photo4 changed to .webp)
         const photos = ['photo1.webp', 'photo2.webp', 'photo3.webp', 'photo4.webp'];
         let currentStep = 0;
 
@@ -233,7 +233,7 @@
         canvas.height = size;
 
         const overlayImg = new Image();
-        overlayImg.src = 'photo.webp';
+        overlayImg.src = 'photo.jpg';
 
         function resetCanvas() {
             ctx.globalCompositeOperation = 'source-over';
